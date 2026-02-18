@@ -2,7 +2,7 @@
 
 # 📊 E-commerce Sales Analysis (2022–2024)
 
-![Dashboard Preview](imagenes/dashboard_preview.jpg)
+![Dashboard Preview](imagenes/dashboard_preview.JPG)
 
 ## 📌 Project Overview
 
