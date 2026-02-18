@@ -26,6 +26,9 @@ The project follows a structured analytical workflow from raw data exploration t
 
 ---
 
+
+
+
 ## 📂 Project Structure
 
 ecommerce-sales-analysis/
@@ -36,6 +39,8 @@ ecommerce-sales-analysis/
 ├── powerbi/ → Executive dashboard (.pbix)
 ├── images/ → Dashboard preview
 └── README.md
+
+
 
 
 ---
