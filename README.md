@@ -4,100 +4,120 @@
 
 ![Dashboard Preview](imagenes/dashboard_preview.JPG)
 
-## 📌 Project Overview
+# 📊 Análisis de Ventas E-commerce (2022–2024)
 
-This project analyzes sales performance from an e-commerce business between 2022 and 2024.  
-The objective is to evaluate growth trends, monthly volatility, category performance, and overall business stability using:
+## 📌 Descripción del Proyecto
+
+Este proyecto analiza el desempeño de ventas de un negocio e-commerce entre los años 2022 y 2024.
+
+El objetivo es evaluar:
+
+- Tendencias de crecimiento
+- Volatilidad mensual
+- Desempeño por categoría
+- Estabilidad general del negocio
+
+El análisis se desarrolló siguiendo un flujo estructurado que integra:
 
 - SQL Server
 - Python (Pandas & Matplotlib)
 - Power BI
 
-The project follows a structured analytical workflow from raw data exploration to executive-level dashboard visualization.
+Desde la exploración de datos hasta la construcción de un dashboard ejecutivo.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Herramientas Utilizadas
 
-- **SQL Server** → Data aggregation & growth analysis
-- **Python (Pandas, Matplotlib, PyODBC)** → Data exploration & visualization
-- **Power BI** → Executive dashboard
-- **DAX** → Time intelligence calculations
+- **SQL Server** → Agregaciones y análisis estructural
+- **Python (Pandas, Matplotlib, PyODBC)** → Exploración y visualización
+- **Power BI** → Dashboard ejecutivo
+- **DAX** → Cálculos de inteligencia de tiempo
 
 ---
 
-
-
-
-## 📂 Project Structure
+## 📂 Estructura del Proyecto
 
 ecommerce-sales-analysis/
 │
-├── data/ → Raw dataset
-├── sql/ → SQL analysis scripts
-├── python/ → Python exploratory analysis
-├── powerbi/ → Executive dashboard (.pbix)
-├── images/ → Dashboard preview
+├── data/ → Dataset original
+├── sql/ → Scripts de análisis en SQL
+├── python/ → Análisis exploratorio en Python
+├── powerbi/ → Dashboard ejecutivo (.pbix)
+├── images/ → Vista previa del dashboard
 └── README.md
 
 
 
+---
+
+## 📈 Principales Hallazgos del Negocio
+
+### 🔹 Ventas Totales (2022–2024)
+
+El negocio generó aproximadamente **11 millones en ingresos totales** durante el período analizado.
 
 ---
 
-## 📈 Key Business Findings
+### 🔹 Crecimiento Anual
 
-### 🔹 Total Sales (2022–2024)
-The business generated approximately **11M in total revenue**.
+- 2022 → 2023: **+16.3%**
+- 2023 → 2024: **-4.26%**
+- Crecimiento acumulado 2022–2024: **+11.35%**
 
-### 🔹 Growth Analysis
-- 2022 → 2023: **+16.3% growth**
-- 2023 → 2024: **-4.26% decrease**
-- Overall growth (2022–2024): **+11.35%**
-
-Despite a slight decline in 2024, the business maintains positive cumulative growth.
-
-### 🔹 Monthly Volatility
-- Significant monthly fluctuations (>20% in some months).
-- Volatility exists across all years, not only in 2024.
-- No structural collapse detected.
-
-### 🔹 Seasonal Pattern
-- Strong start of year across all periods.
-- Temporary corrections followed by recovery.
-- Repeated intra-annual cyclical behavior.
-
-### 🔹 Category Performance
-- Electronics is the dominant revenue driver.
-- No category experienced structural collapse in 2024.
-- Office category showed the largest reduction (~8.5%) but not critical.
+Aunque en 2024 se observa una leve desaceleración, el negocio mantiene crecimiento acumulado positivo.
 
 ---
 
-## 📊 Executive Dashboard
+### 🔹 Volatilidad Mensual
 
-The Power BI dashboard includes:
-
-- KPI cards (Total Sales, Orders, Growth %, Average Ticket)
-- Monthly sales trend
-- Annual comparison
-- Category breakdown
-- Interactive year slicer
-
-This dashboard is designed for executive-level decision-making.
+- Se identificaron variaciones superiores al 20% en algunos meses.
+- La volatilidad está presente en los tres años.
+- No se detecta colapso estructural del negocio.
 
 ---
 
-## 🚀 Conclusion
+### 🔹 Patrón Estacional
 
-The analysis shows a business with strong expansion in 2023 followed by stabilization in 2024.  
-The decline is moderate and consistent with normal market adjustments rather than systemic issues.
-
-The integration of SQL, Python, and Power BI demonstrates a complete analytical workflow from raw data to executive insight delivery.
+- Inicio de año sólido en los tres períodos.
+- Correcciones temporales seguidas de recuperación.
+- Comportamiento cíclico intra-anual.
 
 ---
 
-## 👤 Author
+### 🔹 Desempeño por Categoría
+
+- **Electronics** es la principal fuente de ingresos.
+- No se identificaron caídas críticas en categorías.
+- La categoría **Office** presentó la mayor reducción en 2024 (~8.5%), pero no estructural.
+
+---
+
+## 📊 Dashboard Ejecutivo
+
+El dashboard en Power BI incluye:
+
+- Tarjetas KPI (Ventas Totales, Órdenes, Crecimiento %, Ticket Promedio)
+- Tendencia mensual
+- Comparativo anual
+- Desglose por categoría
+- Segmentación interactiva por año
+
+Diseñado para facilitar la toma de decisiones a nivel ejecutivo.
+
+---
+
+## 🚀 Conclusión
+
+El análisis muestra un negocio con fuerte expansión en 2023 y una estabilización moderada en 2024.
+
+La desaceleración observada corresponde a ajustes naturales del mercado y no a una falla estructural.
+
+Este proyecto demuestra la capacidad de integrar múltiples herramientas analíticas para transformar datos en información estratégica.
+
+---
+
+## 👤 Autor
 
 Bryan Barrios  
 Data Analyst Junior  
